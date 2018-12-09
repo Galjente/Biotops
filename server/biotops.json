@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "Biotops server side",
+      "script": "index.js",
+      "instances": 1,
+      "exec_mode": "fork",
+      "watch": true,
+      "env_production":  {
+        "NODE_ENV": "production",
+        "PORT": 3000
+      }
+    }
+  ]
+}

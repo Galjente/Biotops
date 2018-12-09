@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `place` (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  address VARCHAR(512) NOT NULL,
+  region VARCHAR(255) NOT NULL,
+  latitude DECIMAL(15,13) NOT NULL,
+  longitude DECIMAL(15,13) NOT NULL,
+  entrance_fee DECIMAL(5,3) NOT NULL,
+  note TEXT,
+  short_description TEXT NOT NULL,
+  description TEXT NOT NULL,
+  creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  update_date TIMESTAMP NULL DEFAULT NULL,
+  published BOOL NOT NULL DEFAULT 1,
+  deleted BOOL NOT NULL DEFAULT 0,
+  PRIMARY KEY(id)
+)
+ENGINE=InnoDB
+CHARACTER SET utf8
+COLLATE utf8_bin;

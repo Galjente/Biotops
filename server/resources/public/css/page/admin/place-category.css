@@ -1,0 +1,12 @@
+#category-list .icon {
+    text-align: center;
+}
+
+#category-list .icon img {
+    max-width: 50px;
+}
+
+#category-modal img.icon {
+    max-width: 150px;
+    max-height: 200px;
+}

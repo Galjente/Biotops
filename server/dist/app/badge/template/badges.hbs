@@ -1,0 +1,156 @@
+<link href="/css/page/admin/badge.css" rel="stylesheet" media="screen"/>
+<link href="/css/page/image-helper.css" rel="stylesheet" media="screen"/>
+
+<script src="/js/page/image-helper.js"></script>
+<script src="/js/page/admin/badge.js"></script>
+
+<script id="badge-template" type="text/x-jsrender">
+    <tr class="\{{:achievementFunctionName ? '' : 'warning'}}">
+        <td>\{{:id}}</td>
+        <td class="icon">
+            \{{if imageActivate}}
+		        <img src="\{{:imageActivate.uri}}" alt="\{{:name}}"/>
+		    \{{else}}
+		        <img src="/img/no-image-100x75.png" alt="\{{:name}}"/>
+		    \{{/if}}
+        </td>
+        <td class="icon">
+            \{{if imageDeactivate}}
+		        <img src="\{{:imageDeactivate.uri}}" alt="\{{:name}}"/>
+		    \{{else}}
+		        <img src="/img/no-image-100x75.png" alt="\{{:name}}"/>
+		    \{{/if}}
+        </td>
+        <td>\{{:name}}</td>
+        <td>\{{:congratulationText}}</td>
+        <td>\{{:aimText}}</td>
+        <td class="date" data-date-format="YYYY-MM-DD HH:mm:ss">\{{:creationDate}}</td>
+        <td class="date" data-date-format="YYYY-MM-DD HH:mm:ss">\{{:updateDate}}</td>
+        <td>
+            <button class="btn btn-default" data-id="\{{:id}}" data-toggle="modal" data-target="#badge-modal">
+                Edit<span class="glyphicon glyphicon-pencil with-margin"></span>
+            </button>
+            <button class="btn btn-danger delete" data-id="\{{:id}}" data-confirm-message="You really want delete badge <i>\{{>name}}</i>?" >
+                Delete <span class="glyphicon glyphicon-trash"></span>
+            </button>
+        </td>
+    </tr>
+</script>
+
+<div class="container">
+    <h1>Badges</h1>
+
+    <div class="alert alert-danger" style="display: none;"></div>
+    <table id="badge-list" class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Active image</th>
+	            <th>Not active image</th>
+                <th>Name</th>
+                <th class="hidden-xs">Congratulation text</th>
+                <th class="hidden-xs">Aim text</th>
+                <th class="hidden-xs">Creation date</th>
+                <th class="hidden-xs">Update date</th>
+                <th>&nbsp;</th>
+            </tr>
+            <tr>
+                <td colspan="9" class="new-record" data-toggle="modal" data-target="#badge-modal">
+                    <span>Add new badge<span class="glyphicon glyphicon-plus with-margin"></span></span>
+                </td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td colspan="9" class="text-center">
+                    <div class="pagination"></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<div>
+    <div id="badge-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" data-default-text="Add new badge">Add new badge</h4>
+                </div>
+
+                <div class="modal-body">
+                    <form action="/admin/badge/save" method="post">
+                        <div class="alert" role="alert"></div>
+
+                        <input name="id" type="hidden"/>
+
+	                    <div class="form-group col-sm-6 text-center">
+		                    <input type="hidden" name="imageActivateId"/>
+		                    <label>Active image</label>
+		                    <br/>
+		                    <img class="icon" src="/img/no-image-100x75.png" data-default-src="/img/no-image-100x75.png" />
+		                    <br/><br/>
+		                    <div class="btn-group" role="group">
+			                    <button id="select-active-image-button" type="button" class="btn btn-default">Select</button>
+			                    <button id="delete-active-image-button" type="button" class="btn btn-danger">Delete</button>
+		                    </div>
+	                    </div>
+	                    <div class="form-group col-sm-6 text-center">
+		                    <input type="hidden" name="imageDeactivateId"/>
+		                    <label>Not active image</label>
+		                    <br/>
+		                    <img class="icon" src="/img/no-image-100x75.png" data-default-src="/img/no-image-100x75.png" />
+		                    <br/><br/>
+		                    <div class="btn-group" role="group">
+			                    <button id="select-not-active-image-button" type="button" class="btn btn-default">Select</button>
+			                    <button id="delete-not-active-image-button" type="button" class="btn btn-danger">Delete</button>
+		                    </div>
+	                    </div>
+
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input name="name" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Congratulation text</label>
+                            <input name="congratulationText" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>AIM text</label>
+                            <input name="aimText" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Published</label>
+                            <br/>
+                            <input id="publish-badge" name="published" type="checkbox" class="form-control checkbox-switch" data-on-text="Yes" data-off-text="No" />
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-xs-6">
+                                <label>Creation date</label>
+                                <input name="creationDate" type="text" class="form-control" readonly />
+                            </div>
+
+                            <div class="form-group col-xs-6">
+                                <label>Update date</label>
+                                <input name="updateDate" type="text" class="form-control" readonly />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

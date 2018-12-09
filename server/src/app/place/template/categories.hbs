@@ -1,0 +1,135 @@
+<link href="/css/page/admin/place-category.css" rel="stylesheet" media="screen"/>
+<link href="/css/page/image-helper.css" rel="stylesheet" media="screen"/>
+
+<script src="/js/page/admin/place-category.js"></script>
+<script src="/js/page/image-helper.js"></script>
+
+<script id="category-template" type="text/x-jsrender">
+	<tr>
+		<td>\{{:id}}</td>
+		<td class="icon">
+		    \{{if icon}}
+		        <img src="\{{:icon.uri}}" alt="\{{:name}}"/>
+		    \{{else}}
+		        <img src="/img/no-image-100x75.png" alt="\{{:name}}"/>
+		    \{{/if}}
+		</td>
+		<td>\{{:name}}</td>
+		<td class="date" data-date-format="YYYY-MM-DD HH:mm:ss">\{{:creationDate}}</td>
+        <td class="date" data-date-format="YYYY-MM-DD HH:mm:ss">\{{:updateDate}}</td>
+        <td>
+            <button class="btn btn-default" data-id="\{{:id}}" data-toggle="modal" data-target="#category-modal">
+                Edit<span class="glyphicon glyphicon-pencil with-margin"></span>
+            </button>
+            <button class="btn btn-danger delete" data-id="\{{:id}}" data-confirm-message="You really want delete place category <i>\{{>name}}</i>?" >
+                Delete <span class="glyphicon glyphicon-trash"></span>
+            </button>
+        </td>
+	</tr>
+</script>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			{{>place/template/subMenu}}
+		</div>
+		<div class="col-sm-9">
+			<h1>Place categories</h1>
+
+			<div class="alert alert-danger" style="display: none;"></div>
+			<table id="category-list" class="table table-striped">
+				<thead>
+					<tr>
+						<th>#</th>
+                        <th>Icon</th>
+						<th>Name</th>
+						<th class="hidden-xs">Creation date</th>
+						<th class="hidden-xs">Update date</th>
+						<th>&nbsp;</th>
+					</tr>
+					<tr>
+						<td colspan="8" class="new-record" data-toggle="modal" data-target="#category-modal">
+							<span>Add new category<span class="glyphicon glyphicon-plus with-margin"></span></span>
+						</td>
+					</tr>
+				</thead>
+				<tbody></tbody>
+				<tfoot>
+					<tr>
+						<td colspan="8" class="text-center">
+							<div class="pagination"></div>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div>
+	<div id="category-modal" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" data-default-text="Add new category">Add new category</h4>
+				</div>
+
+				<div class="modal-body">
+					<form action="/admin/place/category/save" method="post">
+						<div class="alert" role="alert"></div>
+
+						<input name="id" type="hidden"/>
+
+						<div class="row">
+                            <div class="col-xs-4">
+                                <div class="form-group text-center">
+                                    <input type="hidden" name="iconId"/>
+                                    <label>Icon</label>
+                                    <br/>
+                                    <img class="icon" src="/img/no-image-100x75.png" data-default-src="/img/no-image-100x75.png" />
+                                    <br/><br/>
+                                    <div class="btn-group" role="group">
+                                        <button id="select-image-button" type="button" class="btn btn-default">Select</button>
+                                        <button id="delete-image-button" type="button" class="btn btn-danger">Delete</button>
+                                    </div>
+                                </div>
+
+                                <div class="form-group text-center">
+                                    <label>Published</label>
+                                    <br/>
+                                    <input id="publish-category" name="published" type="checkbox" class="form-control checkbox-switch" data-on-text="Yes" data-off-text="No" />
+                                </div>
+                            </div>
+
+
+                            <div class="col-xs-8">
+                                <div class="form-group">
+                                    <label>Name<span class="text-danger">*</span></label>
+                                    <input name="name" type="text" class="form-control" autocomplete="off" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Creation date</label>
+                                    <input name="creationDate" type="text" class="form-control" readonly />
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Update date</label>
+                                    <input name="updateDate" type="text" class="form-control" readonly />
+                                </div>
+                            </div>
+						</div>
+					</form>
+				</div>
+
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-primary">Save changes</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

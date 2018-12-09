@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Biotops</string>
+    <string name="facebook_app_id">226835481180939</string>
+    <string name="fb_login_protocol_scheme">fb226835481180939</string>
+    <string name="google_maps_key">AIzaSyBTJpeEhVRKHdqidw6iYL5GNBb-sPpepXg</string>
+</resources>

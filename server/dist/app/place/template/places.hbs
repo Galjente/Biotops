@@ -1,0 +1,195 @@
+<link href="/css/page/admin/place.css" rel="stylesheet" media="screen"/>
+<link href="/css/page/image-helper.css" rel="stylesheet" media="screen"/>
+
+<script src="/js/page/admin/place.js"></script>
+<script src="/js/page/image-helper.js"></script>
+
+<script id="place-template" type="text/x-jsrender">
+	<tr>
+		<td>\{{:id}}</td>
+		<td>\{{:name}}</td>
+		<td>&nbsp;</td>
+		<td>\{{:address}}</td>
+		<td>\{{:region}}</td>
+		<td>\{{:latitude}}</td>
+		<td>\{{:longitude}}</td>
+		<td>
+		    <button class="btn btn-default" data-id="\{{:id}}" data-toggle="modal" data-target="#place-modal">
+                Edit<span class="glyphicon glyphicon-pencil with-margin"></span>
+            </button>
+            <button class="btn btn-danger delete" data-id="\{{:id}}" data-confirm-message="You really want delete place <i>\{{>name}}</i>?" >
+                Delete <span class="glyphicon glyphicon-trash"></span>
+            </button>
+		</td>
+	</tr>
+</script>
+
+<script id="place-modal-image-template" type="text/x-jsrender">
+    <div class="item">
+        <input type="hidden" name="images" value="\{{:id}}"/>
+        <img src="\{{:uri}}" class="center-block" alt="image">
+    </div>
+</script>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			{{>place/template/subMenu}}
+		</div>
+		<div class="col-sm-9">
+		    <h1>Places</h1>
+
+		    <form id="xlsx-form" class="form-inline" action="/admin/place/excel/save" method="post" enctype="multipart/form-data">
+                <div class="alert" role="alert"></div>
+		        <div class="form-group">
+		            <label>Upload xlsx with places:</label>
+		            <input name="xlsxPlaces" type="file" class="form-control" placeholder="XLSX file" accept=".xlsx,.xls" />
+		        </div>
+		    </form>
+		    <br/>
+			<div class="alert alert-danger" style="display: none;"></div>
+		    <table id="place-list" class="table table-striped">
+		        <thead>
+		            <tr>
+		                <th>#</th>
+		                <th>Name</th>
+		                <th class="hidden-xs">Category</th>
+		                <th>Address</th>
+		                <th>Region</th>
+		                <th class="hidden-xs hidden-sm">Latitude</th>
+		                <th class="hidden-xs hidden-sm">Longitude</th>
+		                <th>&nbsp;</th>
+		            </tr>
+		            <tr>
+		                <td colspan="8" class="new-record" data-toggle="modal" data-target="#place-modal">
+		                    <span>Add new place<span class="glyphicon glyphicon-plus with-margin"></span></span>
+		                </td>
+		            </tr>
+		        </thead>
+		        <tbody></tbody>
+		        <tfoot>
+		            <tr>
+		                <td colspan="8" class="text-center">
+		                    <div class="pagination"></div>
+		                </td>
+		            </tr>
+		        </tfoot>
+		    </table>
+		</div>
+	</div>
+</div>
+
+<div>
+    <div id="place-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" data-default-text="Add new place">Add new place</h4>
+                </div>
+
+                <div class="modal-body">
+                    <form action="/admin/place/save" method="post">
+                        <div class="alert" role="alert"></div>
+
+                        <input name="id" type="hidden"/>
+
+                        <div class="form-group">
+                            <label>Name<span class="text-danger">*</span></label>
+                            <input name="name" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Address<span class="text-danger">*</span></label>
+                            <input name="address" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Categories<span class="text-danger">*</span></label>
+                            <select name="categories" class="selectpicker form-control" multiple title="Choose one of the following..." data-selected-text-format="count">
+                                {{#each placeCategories}}
+                                    <option value="{{id}}">{{name}}</option>
+                                {{/each}}
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Region<span class="text-danger">*</span></label>
+                            <input name="region" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Entrance fee</label>
+                            <br/>
+                            <input name="entranceFee" type="checkbox" class="form-control checkbox-switch" />
+                        </div>
+
+                        <div class="form-group col-md-6 col-sm-12">
+                            <label>Latitude<span class="text-danger">*</span></label>
+                            <input name="latitude" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group col-md-6 col-sm-12">
+                            <label>Longitude<span class="text-danger">*</span></label>
+                            <input name="longitude" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Note</label>
+                            <textarea name="note" class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Short shortDescription</label>
+                            <textarea name="shortDescription" class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea name="description" class="form-control" rows="4"></textarea>
+                        </div>
+
+	                    <div class="form-group">
+		                    <label>Images</label>
+		                    <div class="text-center">
+			                    <br/>
+			                    <div class="btn-group" role="group">
+				                    <button id="add-image-button" type="button" class="btn btn-default">
+					                    Add image<span class="glyphicon glyphicon-plus with-margin"></span>
+				                    </button>
+				                    <button id="delete-image-button" type="button" class="btn btn-danger">
+					                    Delete current<span class="glyphicon glyphicon-trash"></span>
+				                    </button>
+			                    </div>
+			                    <br/><br/>
+		                    </div>
+		                    <div id="carousel-place-images" class="carousel slide place-slider" data-ride="carousel">
+			                    <!-- Wrapper for slides -->
+			                    <div class="carousel-inner" role="listbox">
+                                    <div class="item item-mock active"></div>
+                                </div>
+
+			                    <!-- Controls -->
+			                    <a id="carousel-place-left-button" class="left carousel-control" href="#carousel-place-images" role="button" data-slide="prev">
+				                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				                    <span class="sr-only">Previous</span>
+			                    </a>
+			                    <a id="carousel-place-right-button" class="right carousel-control" href="#carousel-place-images" role="button" data-slide="next">
+				                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				                    <span class="sr-only">Next</span>
+			                    </a>
+		                    </div>
+	                    </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

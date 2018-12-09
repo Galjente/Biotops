@@ -1,0 +1,100 @@
+<link href="/css/page/admin/storage.css" rel="stylesheet" media="screen">
+
+<script src="/js/page/image-helper.js"></script>
+<script src="/js/page/admin/storage.js"></script>
+
+<script id="image-list-template" type="text/x-jsrender">
+    <div id="image-\{{:id}}" class="col-md-3 image">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div data-toggle="tooltip" data-placement="top" title="\{{:originalName}}">\{{:originalName}}</div>
+            </div>
+            <div class="panel-body" data-toggle="modal" data-target="#image-preview-modal" data-uri="\{{:uri}}">
+                <img src="\{{:uri}}" alt="\{{:originalName}}"/>
+            </div>
+            <div class="panel-footer text-right">
+                \{{if deletable}}
+                    <button type="button" class="btn btn-danger delete" data-id="\{{:id}}">
+                        Delete<span class="glyphicon glyphicon-trash with-margin" aria-hidden="true"></span>
+                    </button>
+                \{{/if}}
+            </div>
+        </div>
+    </div>
+</script>
+
+<div class="container">
+    <h1 class="page-header">Image storage</h1>
+    <div id="image-grid-list" class="row image-list">
+        <div class="col-md-3 image add-new">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div data-toggle="tooltip" data-placement="top" title="New image">New image</div>
+                </div>
+                <div class="panel-body text-center" data-toggle="modal" data-toggle="modal" data-target="#image-upload-modal">
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                </div>
+                <div class="panel-footer text-right"></div>
+            </div>
+        </div>
+        <div class="col-md-12 image-loading-area">
+            <div class="spinner"></div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div id="image-preview-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Preview image</h4>
+                </div>
+
+                <div class="modal-body">
+                    <img src="" alt ="Preview"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="image-upload-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" data-default-text="Upload image">Upload image</h4>
+                </div>
+
+                <div class="modal-body">
+                    <form action="/admin/storage/image/save" method="POST" enctype="multipart/form-data">
+                        <div class="alert" role="alert"></div>
+
+                        <div class="form-group">
+                            <label>Image preview</label>
+                            <div class="text-center">
+                                <img class="image-preview"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Image</label>
+                            <input name="image" type="file" class="form-control" accept="image/*"/>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    padding-top: 50px;
+}
+
+.glyphicon.with-margin {
+    margin-left: 8px;
+}
+
+table thead tr td.new-record {
+    color: #337ab7;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table thead tr td.new-record:hover {
+    background-color: #ddd;
+}
+
+.container .sub-menu {
+    padding-top: 10px;
+}
+
+/**************************************
+ *              Spinner               *
+ **************************************/
+.spinner-container {
+    background: black;
+    position:   absolute;
+    top:        0;
+    bottom:     0;
+    left:       0;
+    right:      0;
+    opacity:    0.3;
+    z-index:	100;
+}
+
+.spinner-small {
+    position: relative;
+}

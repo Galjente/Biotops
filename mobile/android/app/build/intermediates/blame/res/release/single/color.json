@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/Galjente/.android/build-cache/36ffabc3cfa84d5b8b789f277b26c27a3d45b429/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/com_facebook_send_button_text_color.xml",
+        "source": "/Users/Galjente/.android/build-cache/aae95656b9f5522ddd56c9d820437edcb0ff366f/output/res/color/com_facebook_send_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/Galjente/.android/build-cache/36ffabc3cfa84d5b8b789f277b26c27a3d45b429/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/Galjente/.android/build-cache/36ffabc3cfa84d5b8b789f277b26c27a3d45b429/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/com_facebook_button_text_color.xml",
+        "source": "/Users/Galjente/.android/build-cache/aae95656b9f5522ddd56c9d820437edcb0ff366f/output/res/color/com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/color/abc_tint_seek_thumb.xml"
+    }
+]

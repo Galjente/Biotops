@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

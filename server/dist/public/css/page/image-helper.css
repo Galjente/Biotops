@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.image-select-modal {
+    z-index: 99999;
+}
+
+.image-select-modal .image-upload > form .image-preview {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.image-list > .image > .panel {}
+
+.image-list > .image > .panel > .panel-heading {}
+
+.image-list > .image > .panel > .panel-heading > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image-list > .image > .panel > .panel-body {
+    text-align: center;
+    height: 200px;
+}
+
+.image-list > .image > .panel > .panel-body > img {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.image-list > .image > .panel > .panel-footer {
+    min-height: 55px;
+}
+
+.image-list > .image-loading-area {
+    margin-top: 10px;
+}
+
+.image-list > .image-loading-area > .spinner {
+    border: 1px solid #CECECE;
+    height: 60px;
+}
+
+.image-list > .image-loading-area > .spinner > .spinner {
+    z-index: 10 !important;
+}

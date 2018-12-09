@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/8475c59adcae61bd03c5f5e3b9b40a15d0fe80b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76e04c95170b719e7e06a4f282888ace94b02d15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/d32b3cd49b1185bf9a84a094709dcf5ac66384d1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a5aa35a4f6800eff2d7e70afa4a4a901bf31b230/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/edd92007d5c01970ccd84e3cc9617b9208abced8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="576b5113887747a7592650ae14d980e1c57983c4">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb1421f077a7a48ec1f41a623af6b95fb8d60c8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Galjente/Workspaces/Web/Biotops/mobile/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="090803e9eb6588971f788c5a5790be117fc836eb">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/pre-dexed/release/classes_4386dacb2184e5750796061104f93b43162c4a55.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/f0e0e295041117616b9242f38a362ac30fb476e9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_57b90f42c8cec42502f424a1784642c704edb5ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/staticlayout-proxy-1.0_15190a1989309a952dcaea608768fe5054b917a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/aea191fe97734c3bc926da5ffd34123a5da9f6d5/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_33e938efa241aba7a5331a3046fdd1a4b8075715/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/fec9cb598c63a184a8b5a779e0e147b0a50a88af/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_43d0d2593be01547375f4c937ff5cd06e30fdaa5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/aae95656b9f5522ddd56c9d820437edcb0ff366f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d5cbc9214ee567ea6ef56fb2707d48e58d240fc2">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b8c605aa02515c2485d8c3e14e4ebb6b44db368/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/9e8688ed45a29940907c0bc0752bfdb601363152/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c18e06a3c511ec24f05e7a0cb92023630bca7777/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/3995379237b7a269ac3880a92db369ee285f324c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_74aa382d5c044ca9ed15cf0e3a078c8ed985b2a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/c15d06a45f4188325e25ac9a0e3b987d9a25c6e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51fd06f1176a7ae5e0add68ee618038d78fba346/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/c7cd6413ba2f3be8f1c135695dfa65c825af55d7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ef20bfafad04ad7712f8ce9bd6a1035e8d93488/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/49d845d58b181ac3da91f9ac696975520eb3d6a8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_98a80320704d7f82ffea45d1c8d03c8f2001c1b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/edd92007d5c01970ccd84e3cc9617b9208abced8/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/infer-annotations-4.0_7beed1391938f7d2b2f38a749d9df72cccaa6d0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_aa1d8eec210a274a9fc7fb4ed81b01435f471e71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/660488d4ad80718eda50e3809f6a3b18d87e6161/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_36ca2553e046f5ae4f326ba1176a1d69930e99aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/36ffabc3cfa84d5b8b789f277b26c27a3d45b429/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bfd7af0e4e74f39617dda7569bb8dcfc9367d25c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/57bbbc776b42694f2d0434a4e4edaaad968c4e10/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5cea383537c3960a862eb04de6aa3283447ec8a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-3.6.0_eaf1c382793119d91d74f158fe206870bd1a5b44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/0624bb2b37c46a02b7843b85980feb7f5f415565/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a0a72d403c35c25cdad2ff9381356f8f3a86b7ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-3.0.0_aa13b73fbb4a391837f106a8324319eaa24dbcb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/660488d4ad80718eda50e3809f6a3b18d87e6161/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3dda3848563be4c86c246edcfd10b3373df77871/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/5876e2b075cbf996a80a5867e39b04a460529bca/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_77768754842b081820fc9fd698f89651103004c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Galjente/Workspaces/Web/Biotops/mobile/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/pre-dexed/release/classes_25abba703fa78e6488e3eb8d7d07c0713e45f550.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/3995379237b7a269ac3880a92db369ee285f324c/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_07f5a73f9589eecc4e7efb0d8732d014d02aea55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_3368afc3fe8f64f1672b4746d1b6bb4a26fc2d46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/05687d83796cdb2ef4d9d7f7450922c1c3cd9201/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5881a0d053e38963d2929822922f399004586bc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a43acd1d3b4c700bbb91c2efc9ec96cbb6351c43">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d54baa362674689f4cd8a8f8fbbff54fb00568d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/e21881efc99071fb386708607c337ceb9d926a71/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_472ebbef464b2da0e834e855858c52d335cf7bee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_1dd1c365cfc19aed8116372436e8b8f153206904/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_81c023787f691ec7a227c5320be9639690a87613/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/68d66f71fc2b5a27829d26e4f0f8aa30dbc16c97/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_141dba044d45e7081811d9410c148d71f61285c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/5876e2b075cbf996a80a5867e39b04a460529bca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7b61fb5c13871f53235d47b777e946bdb19bdb12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/95d6eef2260d7e5c35beba826276a82e06df6a6d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b304459ec5b6c2b250fc5eb1db64b7051cb9c73d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_66a17623bcd675d66ebfe843d7d895fec9b91d3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0e89107cb4464515e45816ccbaf35da78f668c66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/99147f02abc93103061e5e915fdf1851649ab4b9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f1aa2f7e013dd287145e205b371709cc450f1373/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/8475c59adcae61bd03c5f5e3b9b40a15d0fe80b4/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c4ca566c7b7c9bfe15d63ed97dc09d64c7cf6ba8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/aea191fe97734c3bc926da5ffd34123a5da9f6d5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_849ace2e4a0ebd30e7f52ba9236699d6f95142e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/8e81d79b3c36d2b1b4529748eed22b9d2544760c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_726e69518a7fcf8b8f751fb7dfa7e969d9719ad1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_86e2a0629a8ee05294c1e482518f422a70d35c3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/22ed417450aaf620c1fb111ef5be88484da1c38d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_43559fe2e630336bd935681082647bedb9b535f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Galjente/Workspaces/Web/Biotops/mobile/node_modules/react-native-fbsdk/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7245aba41eebd85880b622282b42a2511469e4d8">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/pre-dexed/release/classes_c733df9d22ccb8ddd69fbacb22a6327874a36f6c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Galjente/.android/build-cache/d25f3ce330414f10850b5253927e914555d2bb02/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/Galjente/Workspaces/Web/Biotops/mobile/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e4e34357210a53793a596f03ba866743321bc8f/classes.dex" />
+    </item>
+
+</items>
